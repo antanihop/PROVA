@@ -1,0 +1,6 @@
+FROM openjdk:8-jdk-alpine
+MAINTAINER Ar4k - Rossonet <andrea.ambrosini@rossonet.com>
+RUN apk add --no-cache bash gawk sed grep bc coreutils wget binutils
+COPY bottegaio-web-console-*.jar bottegaio-web.jar
+ENTRYPOINT ["java"]
+CMD ["-XX:+UseParallelGC","-XX:MinHeapFreeRatio=10","-XX:MaxHeapFreeRatio=20","-XX:GCTimeRatio=4","-XX:AdaptiveSizePolicyWeight=90","-XX:+ExitOnOutOfMemoryError","-XX:+UnlockExperimentalVMOptions","-Djava.net.preferIPv4Stack=true","-XX:+UseCGroupMemoryLimitForHeap","-XshowSettings:vm","-Djava.security.egd=file:/dev/./urandom","-jar","/bottegaio-web.jar"]

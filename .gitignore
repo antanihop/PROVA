@@ -1,0 +1,13 @@
+bin
+bottegaio-backend.ks
+bottegaio-data
+build
+frontend
+node_modules
+package.json
+package-lock.json
+target
+webpack.config.js
+webpack.generated.js
+tsconfig.json
+types.d.ts

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.6.1/6714eb00a73980dd2e7dd86056fd9feb6f496b9d/spring-boot-starter-security-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.6.1/d056492c253f2445e67bb0341c384a2c09935d2b/spring-boot-starter-security-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.6.1/aa2ed0ceba4a9cbd0fc373490536f6583f79c702/spring-boot-starter-security-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-spring-boot-starter/14.8.11/e930fd66ba3731ec9399e99527ef6ccaba6d309a/vaadin-spring-boot-starter-14.8.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-starter/19.0.1/eea20224e67d77bdf26014d38bf21c85a455d596/keycloak-spring-boot-starter-19.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-2-adapter/19.0.1/7d15c5204e9fa1b00978bcbbef74bab35285d628/keycloak-spring-boot-2-adapter-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-2-adapter/19.0.1/a4178f7e44881b4934191dc97f129c790556d002/keycloak-spring-boot-2-adapter-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-2-adapter/19.0.1/ebc582616487c3d3ec3df7ad8f3292f1bc9844fa/keycloak-spring-boot-2-adapter-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.6.1/eb5b232472d2c85d424d5fd68e84c0735787eff2/spring-boot-starter-web-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.6.1/145ac0cfb81982608ef0d19e32699c0eeeb3c2ab/spring-boot-starter-web-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.6.1/d4f8b5135cf9adcd45ed8c53d314db9827dee792/spring-boot-starter-web-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.flowingcode.addons/xterm-console/1.0.2/cc0b6c2ef3742b4bcad5e75799fdd85307352e51/xterm-console-1.0.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.flowingcode.addons/xterm-console/1.0.2/b6b2ef5ca21a54eaa99e931ce25cb2dd9a45f629/xterm-console-1.0.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.flowingcode.addons/xterm-console/1.0.2/a90ebac81b2c2702c8170821000df9a175127c5d/xterm-console-1.0.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-core/14.8.11/7c3626adf4d99444c5970feaf1e44675adf31c2f/vaadin-core-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-core/14.8.11/2b7057c43f2505ada563fa118ab4f82090f10d8/vaadin-core-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-core/14.8.11/c15daee1df0b9a96f67aa304f338dbbcd10fd9d/vaadin-core-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-material-theme/2.7.15/5d9499ee856deebe36e928321f3a8a9469ca8fe4/vaadin-material-theme-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-material-theme/2.7.15/77bca07249b493917de2c6e976372719c50a9152/vaadin-material-theme-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-material-theme/2.7.15/7e09906ea2867a3572c6a97917f97baa7ccad659/vaadin-material-theme-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-icons-flow/14.8.11/b1180a617cf8802ab65dc955182a8312c28717dd/vaadin-icons-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-icons-flow/14.8.11/e79154c6e0b59194b7aeee2cd11b91bce16a578f/vaadin-icons-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-icons-flow/14.8.11/519c44835f52b42fec6d1e9d63125e2a4d0e3d04/vaadin-icons-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-grid-flow/14.8.11/bb67ad2aeb8eb870e1018f6f1dfd9c823080b6e5/vaadin-grid-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-grid-flow/14.8.11/afa35f8d7e363aa7f6bd90b514f71b31b3d7b95e/vaadin-grid-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-grid-flow/14.8.11/d312715342589930d3ba381c010119615ae174bc/vaadin-grid-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-app-layout-flow/14.8.11/711afae29d39f464805e281b8a26ddeaae4ea045/vaadin-app-layout-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-app-layout-flow/14.8.11/13db558085991bbba1d1974315a137016059d851/vaadin-app-layout-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-app-layout-flow/14.8.11/ba45d9675c4ad326689ae85702a8c5a15555b028/vaadin-app-layout-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-split-layout-flow/14.8.11/f26ea64fa9630041ae0549cc0afbd74f04c64c49/vaadin-split-layout-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-split-layout-flow/14.8.11/24ed8d40e6c038845cc4ba259b153d7b47f19b0f/vaadin-split-layout-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-split-layout-flow/14.8.11/6e6b779837422d58667920a8ba8d691d82b74cbb/vaadin-split-layout-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-spring/12.4.3/fc5de354ef7a4a0d728bbff22f0c0264c464dbcd/vaadin-spring-12.4.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-spring/12.4.3/87e07ca838ad33b6feaf8a7efec8b89a1c8a328a/vaadin-spring-12.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-spring/12.4.3/429ad27a628ffc3946f2cd020a565e6ffb077413/vaadin-spring-12.4.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-client/2.7.15/611c7648516474c27af5f5885d9b6271ddc99b56/flow-client-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-client/2.7.15/efa5289ddbde91df15ded50f41d2d9247ced3274/flow-client-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-client/2.7.15/3ae9bfb208d71efa95b343888aaea809f0a28786/flow-client-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-upload-flow/14.8.11/b5fbc6883ee9450d20b7caffd67e032285e805b1/vaadin-upload-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-upload-flow/14.8.11/e188ebaa5e0c44cd0f19e7830cf5f39bf3c8c331/vaadin-upload-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-upload-flow/14.8.11/19504ac83a68a0770b50256093d56172be61e7b4/vaadin-upload-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.session/spring-session-core/2.6.0/570ba560f286dcd90c785600f475f5c13415ddbf/spring-session-core-2.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.session/spring-session-core/2.6.0/204fd9878b4407eca9de9c59d6cb409a6ced2198/spring-session-core-2.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.session/spring-session-core/2.6.0/dd4dbe11bc62074a163cfe23fce2384c7640d0eb/spring-session-core-2.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.6.1/392495ddaa098153ef90d7f1a80b30dfe5784cd/spring-boot-devtools-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.6.1/2cc7be288418abf0d18ad53f776200f9c3ca77d4/spring-boot-devtools-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.6.1/171a5c9117834cc1801de2dc162424e1bda849c5/spring-boot-devtools-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.6.1/d91213756d183d55a24c6dc41352c9637f108357/spring-boot-starter-json-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.6.1/b76ad5d869508cc78aaf00bb7ab92e8a472b26ed/spring-boot-starter-json-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.6.1/ba0b49764e3a548c86c1be6c2dac5a401092f198/spring-boot-starter-json-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.6.1/3d0881881868d6a74f1f1388d6c4a3169861dc71/spring-boot-starter-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.6.1/39d77929829c82b102248630047abf0f69b96a7b/spring-boot-starter-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.6.1/6bcf734fd60b4d05654c3e1464ee57edd789230f/spring-boot-starter-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.6.0/a4a9553acf39f6f807a10dfd6b43328de52c9589/spring-security-config-5.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.6.0/9b03cb25f665921db1e6226689ddc7ad53f0f0a3/spring-security-config-5.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.6.0/a591232e8043def02ba2bbcf0c5da3ee48c529bc/spring-security-config-5.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.6.0/2bf2535bbcd7b2952e483fcb15f24c3ef2e2e585/spring-security-web-5.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.6.0/19c73f6ee2d325b3f007da3ae600f739e28f1bd4/spring-security-web-5.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.6.0/ee9fcd9b8292655d9b2eca739e95c27b68621903/spring-security-web-5.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.13/1e9e88fe6a26b39d35de1fffc04f2c387d8f8512/spring-webmvc-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.13/cea31c85fa84dbd9f8df14a3ca62ab57c25cabe4/spring-webmvc-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.3.13/b349822a48e91c1aeb13d75b34cd17a8e98ab647/spring-webmvc-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.6.0/7b0caa37222aa381b7d0e1e6fa66914a8c971cbd/spring-security-core-5.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.6.0/20203f2c9807056e624d54a9eb273dd3286db090/spring-security-core-5.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.6.0/72ca7d619c48003d2b117d15cbb08bc4fe033352/spring-security-core-5.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.6.1/63b76b07a79f3a5d655189e0d2be747d1c5df4c9/spring-boot-autoconfigure-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.6.1/9ac07afd64da0cce435792ba1328c93edcfbb2fb/spring-boot-autoconfigure-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.6.1/be1fc84cfd2ac2f3b2b6e88eba500df0dd760d89/spring-boot-autoconfigure-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.6.1/48133b7ba75c9459e511b6b938a11cec15ff6556/spring-boot-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.6.1/f670cee55752c1f1b304508e18bafd000e543174/spring-boot-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.6.1/681cef7ef84a7cfd50b498a7b4596f563f5a157c/spring-boot-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-websocket/5.3.13/4dd3e83f16c49cff55578d97af4d045643c9eb46/spring-websocket-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-websocket/5.3.13/638d7e46a2f3a6348f7e5defaa3953b29c948ca8/spring-websocket-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-websocket/5.3.13/73539e50819500e7c90ad2f093b923b7da6041a3/spring-websocket-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.13/a6f2ad29fc2124e7eb22441e2c82b096d25a8e05/spring-context-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.13/e328db1c30ffe1c58328e4ab42cd3855a5307469/spring-context-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.13/ad93b11f436e07a4ef480099996ad8be375c7123/spring-context-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.13/e737cb88c5c739d130d1bbd767cbda63d8954641/spring-aop-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.13/e0fddf47af3fbbec69a403c058c23505612ca329/spring-aop-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.3.13/8ffa04f5f32816c85e914ff8ecf195dbe87b68e9/spring-aop-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.6.1/7d71b586e0eb16bbc348bf496b2a966f0d051755/spring-boot-starter-tomcat-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.6.1/6a0744acdd17b860e2ba3edb95c3c7cec36e6b58/spring-boot-starter-tomcat-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.6.1/8051686cb146070ef24c8919515c10df6fc18a06/spring-boot-starter-tomcat-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.13/b5a502f2450a025b5fe3508457688fd3037d4721/spring-web-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.13/66d95a5d2d436961b4cae036723f4c7a764fc14c/spring-web-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.3.13/73ff5e8402c6d37a67e34b75bff7436954827bb5/spring-web-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-authz-client/19.0.1/35b675bb9e70e1f70f2f52781b2d332fc630d31/keycloak-authz-client-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-authz-client/19.0.1/f53a85c616dcb86535d98ce9e257951fe626f187/keycloak-authz-client-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-authz-client/19.0.1/3fc44f9cfa1596d4aaf72eafd1a8415c258782cf/keycloak-authz-client-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/spring-boot-container-bundle/19.0.1/277805be9688b11f35ba35c5a443add0d0189d36/spring-boot-container-bundle-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/spring-boot-container-bundle/19.0.1/bffad669d48b3980dffc0bbc048e803ddbef573c/spring-boot-container-bundle-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/spring-boot-container-bundle/19.0.1/8f932c1ed222bc7627c61e6cb786c843651ffc5a/spring-boot-container-bundle-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/19.0.1/2f2ac458921df168df025bb27218da3147ccede/keycloak-spring-security-adapter-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/19.0.1/a398cc82953fe10565484f53897d560f77d8405f/keycloak-spring-security-adapter-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/19.0.1/400546bac13ba97f1c3fd831c5834b49cd2cb42/keycloak-spring-security-adapter-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-grid/5.9.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-grid-5.9.6-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-grid/5.9.6/d986a2810b8f572aeaf3261eee1dde63f09da826/vaadin-grid-5.9.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-grid/5.9.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-grid-5.9.6-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-checkbox-flow/14.8.11/20f79506bddb12309a0f918bcf44c492fb1be7d3/vaadin-checkbox-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-checkbox-flow/14.8.11/b8943e12672c43dfd67cbb4363939d7002cc8b3d/vaadin-checkbox-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-checkbox-flow/14.8.11/4ba194ca4f46399ef5f904780158e1bfed86650/vaadin-checkbox-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-checkbox/2.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-checkbox-2.5.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-checkbox/2.5.1/d36895d55f850942f88e019d69d64920997649f9/vaadin-checkbox-2.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-checkbox/2.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-checkbox-2.5.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-combo-box-flow/14.8.11/eb9189c7f7a914b0110c3b7cada42ad2cd4e5129/vaadin-combo-box-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-combo-box-flow/14.8.11/4d3187e66d7a8becea0c55d8c8438063a79e7931/vaadin-combo-box-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-combo-box-flow/14.8.11/f9972beaf09384a7752334c46748ca5e96776f41/vaadin-combo-box-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-time-picker-flow/14.8.11/a247f360b92e48d8d85fbde3099deac5e25d6b20/vaadin-date-time-picker-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-time-picker-flow/14.8.11/b8cb2499ae89e49a18c46a0d7ba6665400312f5b/vaadin-date-time-picker-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-time-picker-flow/14.8.11/97c7d7d929a6da1ea560fea433e10aff9bb5120a/vaadin-date-time-picker-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-picker-flow/14.8.11/a43aec1d070850e9105589dd0f20ae571c737a62/vaadin-date-picker-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-picker-flow/14.8.11/43bb612c69ee2c887e0b6950514f0028f2d7406/vaadin-date-picker-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-date-picker-flow/14.8.11/549de7fc21f6f43b33f9a1264c515e7476b6bffe/vaadin-date-picker-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-time-picker-flow/14.8.11/50e8d88a7c31bee338ffafbda50ca03076fdf1bc/vaadin-time-picker-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-time-picker-flow/14.8.11/8f1fa944532485d8973690ed435c1bf611b2bad/vaadin-time-picker-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-time-picker-flow/14.8.11/15be517d0be0309d1d5ab1eeb87dfb59f3bc8014/vaadin-time-picker-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-select-flow/14.8.11/98d516851b7ef671ce6c8ddbc872df72f5240724/vaadin-select-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-select-flow/14.8.11/605b2cc087ae7ed200e3b2deb43a9dd35e92538e/vaadin-select-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-select-flow/14.8.11/d3dded49d9e1ee10007dfcaead655cb44d41632c/vaadin-select-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-login-flow/14.8.11/a6bd20d43fe5f3e0ab7d2861b3f60bbfa0507e94/vaadin-login-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-login-flow/14.8.11/64fb7aefb4dd8d983bbe1c78b5d262b963e9f5a1/vaadin-login-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-login-flow/14.8.11/2686f9fcc5d4871b440148626540318ab73771c/vaadin-login-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-text-field-flow/14.8.11/ad4aee8d09581556e8a05e6717009d903cf9baa3/vaadin-text-field-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-text-field-flow/14.8.11/51980b0b7bc02e03544574d3269bf5953a10b772/vaadin-text-field-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-text-field-flow/14.8.11/ac1c3f60640110b7eee236f6724155a45db323c5/vaadin-text-field-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-time-picker/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-date-time-picker-1.4.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-time-picker/1.4.0/9bcbc1af784058d21db226397f3ba68baed74798/vaadin-date-time-picker-1.4.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-time-picker/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-date-time-picker-1.4.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-time-picker/2.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-time-picker-2.4.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-time-picker/2.4.0/32f74c2348d3cffe23f683c378b970efa37047e2/vaadin-time-picker-2.4.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-time-picker/2.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-time-picker-2.4.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-combo-box/5.4.12/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-combo-box-5.4.12-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-combo-box/5.4.12/ac96dd5d1d7f836eaaa2afb291ffbadf31bfc36c/vaadin-combo-box-5.4.12.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-combo-box/5.4.12/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-combo-box-5.4.12-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-picker/4.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-date-picker-4.4.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-picker/4.4.3/8f75dafbac20dc12a2c931310b63a6c8eb30c3b4/vaadin-date-picker-4.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-date-picker/4.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-date-picker-4.4.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-select/2.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-select-2.4.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-select/2.4.3/1f36bfad69ab16ce9c97fec4625ad000637dbc57/vaadin-select-2.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-select/2.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-select-2.4.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-login/1.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-login-1.2.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-login/1.2.0/46cd5e7434527d4a369a8b2f21be6cf9fbc659af/vaadin-login-1.2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-login/1.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-login-1.2.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-text-field/2.9.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-text-field-2.9.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-text-field/2.9.2/1e34cfbc5f8e2a92bd842c936e8a946ec522846d/vaadin-text-field-2.9.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-text-field/2.9.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-text-field-2.9.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-menu-bar-flow/14.8.11/a8635ebbfc9514ff771bebe9dcbfd47f9870f64/vaadin-menu-bar-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-menu-bar-flow/14.8.11/7f98d929af67e0e23d0a78a53d69ae00043dbd82/vaadin-menu-bar-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-menu-bar-flow/14.8.11/63b5f6c8e3d237d8ab481b642067630586e1bd96/vaadin-menu-bar-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-context-menu-flow/14.8.11/f42056a4355efbf74334a0afa834e9584f35824f/vaadin-context-menu-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-context-menu-flow/14.8.11/26a8ba954aced3fc3de69ff04b2611513d6270d6/vaadin-context-menu-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-context-menu-flow/14.8.11/b3dca2426254677987e7bc62c8cfcd4f43bb9b63/vaadin-context-menu-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-button-flow/14.8.11/a47f8407187d32d04622ccb06f92d9d4dc7c341e/vaadin-button-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-button-flow/14.8.11/2bc958d5ade83aafd73c3715b243978457f8a156/vaadin-button-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-button-flow/14.8.11/9ec1abb5dafba406ab513eb219a59b7b7f482530/vaadin-button-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-app-layout/2.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-app-layout-2.2.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-app-layout/2.2.0/4499fece5cddbd04fbfcafb8a988c19bab98582d/vaadin-app-layout-2.2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-app-layout/2.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-app-layout-2.2.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-split-layout/4.3.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-split-layout-4.3.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-split-layout/4.3.1/63e69373fe3456d26a77dc2d822b013f3c21218b/vaadin-split-layout-4.3.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-split-layout/4.3.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-split-layout-4.3.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-upload/4.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-upload-4.4.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-upload/4.4.3/bd979d5a30e351fef9088be7bc554eb3bf90d413/vaadin-upload-4.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-upload/4.4.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-upload-4.4.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-menu-bar/1.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-menu-bar-1.3.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-menu-bar/1.3.0/118cfb679e1eb24205d50ff56fe455c2930c5f0c/vaadin-menu-bar-1.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-menu-bar/1.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-menu-bar-1.3.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-button/2.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-button-2.4.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-button/2.4.0/4661ab6449cd571645f052829178ed9123d8089f/vaadin-button-2.4.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-button/2.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-button-2.4.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-progress-bar-flow/14.8.11/fc6ef0e12299a8bf38f8c7eacb6af48ae94fe541/vaadin-progress-bar-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-progress-bar-flow/14.8.11/ad32d35fc2dde63d6371c98c6bb9346db1817c53/vaadin-progress-bar-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-progress-bar-flow/14.8.11/e6d8b3bbaebc7cdfc67ed5d72eaf563789b42f4a/vaadin-progress-bar-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-progress-bar/1.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-progress-bar-1.3.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-progress-bar/1.3.0/712cd4f53d94324ec00c9bf645a77ac3dcf923a2/vaadin-progress-bar-1.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-progress-bar/1.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-progress-bar-1.3.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-accordion-flow/14.8.11/9bac908d4b143e9bbe90e3b5750ab86d3906c73/vaadin-accordion-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-accordion-flow/14.8.11/dac8837d3d9b6d2194ebb0bbd249ad6cad6545a/vaadin-accordion-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-accordion-flow/14.8.11/892bf8c36c52ef7d5ab9f4a23778a351da5c70a7/vaadin-accordion-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-avatar-flow/14.8.11/bf7b50b0818a21f7b84ebc05b1df7ccb4a8261e/vaadin-avatar-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-avatar-flow/14.8.11/6e50bedad2a2f0dd586161bc0e333b475e5ae269/vaadin-avatar-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-avatar-flow/14.8.11/f9d301357047a08dfe335764fdb68d3db8621c6/vaadin-avatar-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-custom-field-flow/14.8.11/f30f2937c771f6dd30513e9a0c483b0ea6a19813/vaadin-custom-field-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-custom-field-flow/14.8.11/fddd56631e1e041e5761bc34db68b92531e72ddc/vaadin-custom-field-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-custom-field-flow/14.8.11/366632297578548fdfd7d54918c0b9d90d568e32/vaadin-custom-field-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-details-flow/14.8.11/899991fed5f71a34b80e79e1f413b242f75b0dff/vaadin-details-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-details-flow/14.8.11/4e120e023ef82f77381ad08bec47c89d6563a5a5/vaadin-details-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-details-flow/14.8.11/87c1e83a98a3e14bc816f772e2406db10656633/vaadin-details-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-dialog-flow/14.8.11/f862149e1db49a88b55d70483f34b116f10b2a13/vaadin-dialog-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-dialog-flow/14.8.11/e190a507fe85e5ee62709a23a24bd0eb9088f5c9/vaadin-dialog-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-dialog-flow/14.8.11/36b260dea83217ec9376365d798a5bdebf9738a1/vaadin-dialog-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-form-layout-flow/14.8.11/6db8ebe2e359ac1eaf4a4c387e29a68292c81bf0/vaadin-form-layout-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-form-layout-flow/14.8.11/1ead60afc3bc8a13dc519b841532ac5dcd69c3fd/vaadin-form-layout-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-form-layout-flow/14.8.11/492edc9b599963bfeec7ee2a30263b71d38c2897/vaadin-form-layout-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-list-box-flow/14.8.11/c520a85978d24d63910249f2d55f654043297e14/vaadin-list-box-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-list-box-flow/14.8.11/8038945ca140c8cdd89b0ffb6f20e5ca69cf781d/vaadin-list-box-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-list-box-flow/14.8.11/218db7e7cf2f0aa0291f1122b93da4243e86d212/vaadin-list-box-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-ordered-layout-flow/14.8.11/3fb101a52333d8a41223fb044f652aa9f5683927/vaadin-ordered-layout-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-ordered-layout-flow/14.8.11/aa174a851f35271781d6e1b1c9625d91e8e54880/vaadin-ordered-layout-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-ordered-layout-flow/14.8.11/a92af9f2b0d82ab3351f5bba957af3f36d5034bb/vaadin-ordered-layout-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-radio-button-flow/14.8.11/67f8be96172a95849bd59790aa96c4501404bbb3/vaadin-radio-button-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-radio-button-flow/14.8.11/29e7bc99bf699b28072a569864bef4a4ac59e24c/vaadin-radio-button-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-radio-button-flow/14.8.11/37ccdb3f5d335339d0951fa851ea1e4618e52dbe/vaadin-radio-button-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-tabs-flow/14.8.11/2a475ea3008e7d6ffaff3c3bd03146634211983d/vaadin-tabs-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-tabs-flow/14.8.11/acb1b83b49bf24d6446d03d6ba3dcbf014d6201/vaadin-tabs-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-tabs-flow/14.8.11/8227e629f26150a5b1f26bf282401e8cf451b038/vaadin-tabs-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-notification-flow/14.8.11/db845b9bb04258041f1c7202479d3eea0203555c/vaadin-notification-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-notification-flow/14.8.11/57348ecc2bea518afb1b93e24be2c2210ea53b49/vaadin-notification-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-notification-flow/14.8.11/964aaa9ed35ee55a06b42a868ffb97c3bb7786d6/vaadin-notification-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-context-menu/4.6.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-context-menu-4.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-context-menu/4.6.0/3eee61c5d293439287029a496f03e37f68a4707/vaadin-context-menu-4.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-context-menu/4.6.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-context-menu-4.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-avatar/1.0.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-avatar-1.0.4-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-avatar/1.0.4/21ef1b1ae9af9947b254d60e17d1bb8b26e9c6c7/vaadin-avatar-1.0.4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-avatar/1.0.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-avatar-1.0.4-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-box/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-list-box-1.4.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-box/1.4.0/ec246741773ded7c291190d1a7418c974755cc1e/vaadin-list-box-1.4.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-box/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-list-box-1.4.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-dialog/2.6.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-dialog-2.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-dialog/2.6.0/cf093fd12716e3eb2f1e76262182a89d46fbec61/vaadin-dialog-2.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-dialog/2.6.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-dialog-2.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-overlay/3.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-overlay-3.5.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-overlay/3.5.1/a3d5969f8e1a4f74e22d18b68329e6c0f1909ea3/vaadin-overlay-3.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-overlay/3.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-overlay-3.5.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-tabs/3.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-tabs-3.2.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-tabs/3.2.0/7aad2946c438c71cab01db8d0d664038347098c6/vaadin-tabs-3.2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-tabs/3.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-tabs-3.2.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-item/2.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-item-2.3.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-item/2.3.0/81841e020ef92e419478bc368004c9515e0bab2/vaadin-item-2.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-item/2.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-item-2.3.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-accordion/1.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-accordion-1.2.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-accordion/1.2.0/3ef8c302639cce5f42eef7177b03c581efa7f5c4/vaadin-accordion-1.2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-accordion/1.2.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-accordion-1.2.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-custom-field/1.3.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-custom-field-1.3.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-custom-field/1.3.1/d98627954a2309cc99d25027ad4a1dea7d322251/vaadin-custom-field-1.3.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-custom-field/1.3.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-custom-field-1.3.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-details/1.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-details-1.2.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-details/1.2.1/7b0786e062b319333c7a309d080436278b3141fb/vaadin-details-1.2.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-details/1.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-details-1.2.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-form-layout/2.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-form-layout-2.3.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-form-layout/2.3.0/43574966feb58f3652c50ebb9e6218369a0afaa7/vaadin-form-layout-2.3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-form-layout/2.3.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-form-layout-2.3.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-ordered-layout/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-ordered-layout-1.4.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-ordered-layout/1.4.0/4a69e1076fdb7464550c9fb5ccc232809e1e64d6/vaadin-ordered-layout-1.4.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-ordered-layout/1.4.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-ordered-layout-1.4.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-radio-button/1.5.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-radio-button-1.5.4-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-radio-button/1.5.4/d154474f87bd33ef9c9dd18ba5b9f99e3075b05b/vaadin-radio-button-1.5.4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-radio-button/1.5.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-radio-button-1.5.4-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-notification/1.6.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-notification-1.6.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-notification/1.6.2/ad78a918553813bf45e90f1124f90804fae0b960/vaadin-notification-1.6.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-notification/1.6.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-notification-1.6.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-material-styles/1.3.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-material-styles-1.3.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-material-styles/1.3.2/f0ce3eaf7e9a30e48d24d0d3ae25870f6d55611/vaadin-material-styles-1.3.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-material-styles/1.3.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-material-styles-1.3.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-icons/4.3.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-icons-4.3.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-icons/4.3.2/9b4d418841c7a7328883d06a5983e706ea2453dd/vaadin-icons-4.3.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-icons/4.3.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-icons-4.3.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-lumo-theme/2.7.15/38e8d6b495f746be7952fc213bce6992ed4ffaeb/vaadin-lumo-theme-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-lumo-theme/2.7.15/53383becd172b41a4cca076cb60ef0e95c5beb49/vaadin-lumo-theme-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-lumo-theme/2.7.15/c73e573c9b6880d7f991e8777a951c67a6bd8460/vaadin-lumo-theme-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-lumo-styles/1.6.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-lumo-styles-1.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-lumo-styles/1.6.1/f2d93cc5e7dfc98f40199407e2ef2c1bba07b29d/vaadin-lumo-styles-1.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-lumo-styles/1.6.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-lumo-styles-1.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-icon/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-icon-2.1.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-icon/2.1.0/35ef545b59d796b4ddd2a2514d8092c48aeb73b2/iron-icon-2.1.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-icon/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-icon-2.1.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-iconset-svg/2.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-iconset-svg-2.2.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-iconset-svg/2.2.1/7149f59fcc1e35526d21235e2a9e11d2f7c337fe/iron-iconset-svg-2.2.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-iconset-svg/2.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-iconset-svg-2.2.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-meta/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-meta-2.1.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-meta/2.1.1/5d2b17e0e2f185c2ea17f2eab2a91d6e6878a0de/iron-meta-2.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-meta/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-meta-2.1.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-flex-layout/2.0.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-flex-layout-2.0.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-flex-layout/2.0.3/ae34f717d45b89fb243d7b177f8846ea3b1f7297/iron-flex-layout-2.0.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-flex-layout/2.0.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-flex-layout-2.0.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-iron-list-flow/14.8.11/bfde92e4bae0c2236ef3dfec49b6e2ab11d2fea8/vaadin-iron-list-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-iron-list-flow/14.8.11/ce2ee09f492c03218964c090da66838d252d0e08/vaadin-iron-list-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-iron-list-flow/14.8.11/ab0388b7baa405f203c26b0de927d150742a8b88/vaadin-iron-list-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-messages-flow/14.8.11/ca912092a9fc4f3e95936b870cef7eb408ac0a17/vaadin-messages-flow-14.8.11-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-messages-flow/14.8.11/618bcd6c79c004bcbc523d07b802b2fda81c6f6e/vaadin-messages-flow-14.8.11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-messages-flow/14.8.11/6e2ba0afc5f332b0aeda1949009dd31668d2d6c6/vaadin-messages-flow-14.8.11-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-mixin/2.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-list-mixin-2.5.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-mixin/2.5.1/d3ddb4f1b206f36072be1f1cd9c8beb77aedef33/vaadin-list-mixin-2.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-list-mixin/2.5.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-list-mixin-2.5.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-element-mixin/2.4.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-element-mixin-2.4.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-element-mixin/2.4.2/d9f04f8b518291190215ff47cdf1cd27b20ab7f1/vaadin-element-mixin-2.4.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-element-mixin/2.4.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-element-mixin-2.4.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-list/2.0.20/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-list-2.0.20-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-list/2.0.20/8679878e0fb9cd3c4a9c9f3cf1205aab6e184e0b/iron-list-2.0.20.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-list/2.0.20/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-list-2.0.20-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-scroll-target-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-scroll-target-behavior-2.1.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-scroll-target-behavior/2.1.1/493bdbcdc30903927d9ecd7ffc6f91320b85d2c1/iron-scroll-target-behavior-2.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-scroll-target-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-scroll-target-behavior-2.1.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-overlay-behavior/2.3.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-overlay-behavior-2.3.4-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-overlay-behavior/2.3.4/5f7a903f04a78c7cacec3cd73306675f063f70a6/iron-overlay-behavior-2.3.4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-overlay-behavior/2.3.4/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-overlay-behavior-2.3.4-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-resizable-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-resizable-behavior-2.1.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-resizable-behavior/2.1.1/91a052e73b8dd1cb4ac8f2f7804d8c58f211faf2/iron-resizable-behavior-2.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-resizable-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-resizable-behavior-2.1.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-keys-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-a11y-keys-behavior-2.1.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-keys-behavior/2.1.1/af0b79dd45a061014372ed3864360492d0e6c5cf/iron-a11y-keys-behavior-2.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-keys-behavior/2.1.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-a11y-keys-behavior-2.1.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-control-state-mixin/2.2.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-control-state-mixin-2.2.6-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-control-state-mixin/2.2.6/91447fa3f07b9bb635ed56cbbb01a9deede6d5e/vaadin-control-state-mixin-2.2.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-control-state-mixin/2.2.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-control-state-mixin-2.2.6-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-themable-mixin/1.6.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-themable-mixin-1.6.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-themable-mixin/1.6.2/50ba19b6759808e31c12ef114bd489e6703498e/vaadin-themable-mixin-1.6.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-themable-mixin/1.6.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-themable-mixin-1.6.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-announcer/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-a11y-announcer-2.1.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-announcer/2.1.0/a90db8f3c35c21fbd75da3449f7e8a9e078d906c/iron-a11y-announcer-2.1.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-a11y-announcer/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-a11y-announcer-2.1.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-fit-behavior/2.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-fit-behavior-2.2.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-fit-behavior/2.2.1/db2caf438ff6e3f9c758f5e11e6f2857c96ab4fa/iron-fit-behavior-2.2.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-fit-behavior/2.2.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-fit-behavior-2.2.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-media-query/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-media-query-2.1.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-media-query/2.1.0/1033da84f31c5a09a72a35ff491a5ec59a023ca2/iron-media-query-2.1.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymerelements/iron-media-query/2.1.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/iron-media-query-2.1.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymer/polymer/2.7.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/polymer-2.7.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymer/polymer/2.7.0/6cfd123801065107e394c289d1381288867757c8/polymer-2.7.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.polymer/polymer/2.7.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/polymer-2.7.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/shadycss/1.8.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/shadycss-1.8.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/shadycss/1.8.0/560b107493159e7932ea1c2adb6b64e822e1ea67/shadycss-1.8.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/shadycss/1.8.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/shadycss-1.8.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/webcomponentsjs/1.2.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/webcomponentsjs-1.2.6-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/webcomponentsjs/1.2.6/fd99e6ef6aa52f083bbe04524b8794a7ba97ab52/webcomponentsjs-1.2.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.webcomponents/webcomponentsjs/1.2.6/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/webcomponentsjs-1.2.6-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-usage-statistics/2.1.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-usage-statistics-2.1.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-usage-statistics/2.1.2/6e6b9adfff27a78d7f9b710a62fd99d88d99d251/vaadin-usage-statistics-2.1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-usage-statistics/2.1.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-usage-statistics-2.1.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-development-mode-detector/2.0.5/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-development-mode-detector-2.0.5-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-development-mode-detector/2.0.5/b1cdc5db6e1a2edfe3986ef51b470b241719eaf0/vaadin-development-mode-detector-2.0.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-development-mode-detector/2.0.5/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-development-mode-detector-2.0.5-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/4c8dc2f3978b0d70918dd6bf79daf12a84e7d959/commons-lang3-3.12.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.13/ddd4df6d27eb3695492f3fc47fc270b6f8dce001/spring-beans-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.13/1d90c96b287253ec371260c35fbbea719c24bad6/spring-beans-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.13/1a2fd2aeef9884ea5b9dbedfd13bf4bf59ab1a4f/spring-beans-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.13/ba1d61de1799062448c1c682513671136c04f9fd/spring-expression-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.13/8f7448f4fb296a92855fd0afea3375ce41061e84/spring-expression-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.3.13/88471f4a5fbc4ac9638b3a4898ee4228a3eb0213/spring-expression-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.13/3fee4911177ab3b3673a64ef0e5cf25e0d1b5a38/spring-core-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.13/d2a6c3372dd337e08144f9f49f386b8ec7a8080d/spring-core-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.3.13/139f4172cbe67f0f5948074a8c8696c72a1bd24c/spring-core-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.13/48e59686ad1a2dd39f4f1b3d6a63a7424091893a/spring-jcl-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.13/3aa15be194887fbda3912ecbb4ab6ec8dfdebdb0/spring-jcl-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.3.13/6e8248763c6323efdd4e8005d6c99279a6731647/spring-jcl-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.6.1/31300fa260809405b31adae95867de97182c5e2a/spring-boot-starter-logging-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.6.1/2f83b93ec87bf2f1e28e67c9a6cec80f9c0032/spring-boot-starter-logging-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.6.1/21c85cb55122cacb14817716e649daf643e7d3de/spring-boot-starter-logging-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/1ad35f11d17abb52426bfe15ea7b4c583795012/jakarta.annotation-api-1.3.5-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/dce659c5763ffa1e86520cb4d29ca72b89b6605e/jakarta.annotation-api-1.3.5-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.29/3c1e0863032828174271eb0b6a6db726e177db/snakeyaml-1.29-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.29/6d0cdafb2010f1297e574656551d7145240f6e25/snakeyaml-1.29.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.29/d3dac693ef4e5dd162d5b7b7dace49675249be67/snakeyaml-1.29-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.0/61667950f4b19230f0ad83fef77eb7781e235d82/jackson-datatype-jsr310-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.0/4c143877fc733befe6189151c8b95d84acd06941/jackson-datatype-jsr310-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.13.0/f71013926e80a35f7a326940e91088baf156bcb5/jackson-datatype-jsr310-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.13.0/250fd17d2ca4e878354f0663994646c2d0978b6/jackson-module-parameter-names-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.13.0/62a5e3b6cc5aacc0ff2354053f3cc2a7821dfa9/jackson-module-parameter-names-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.13.0/bd3928a430cb64d3aaaf0c0a99d5f06471784bac/jackson-module-parameter-names-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-adapter-core/19.0.1/98135eaeb1bd155c02f9636a41482f086e4a2b10/keycloak-spring-boot-adapter-core-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-adapter-core/19.0.1/d40b4f192577ed9dec847f3efea45d976d7427e8/keycloak-spring-boot-adapter-core-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-boot-adapter-core/19.0.1/209a1b68386c6a231166eeb87e5660c8747bfcc9/keycloak-spring-boot-adapter-core-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-core/19.0.1/f8d03cda900f25cbfb77f6fecf92412433803dab/keycloak-adapter-core-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-core/19.0.1/1012ae44e1a7f7214db018decd6033c568c5042/keycloak-adapter-core-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-core/19.0.1/ed35e212ad3dab56ce68ccc7a72394f38c9776e3/keycloak-adapter-core-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-crypto-default/19.0.1/605ad58940a509392956d9b6134792e5d8fbd979/keycloak-crypto-default-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-crypto-default/19.0.1/d5ccd221302ee25df7da61567c1af2d34d9ea346/keycloak-crypto-default-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-crypto-default/19.0.1/83a13ad28e18e04e3baedd148f6d8b27fda86f4/keycloak-crypto-default-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-core/19.0.1/e2a3d4a172b52fa69c987707a1a86d0536959f8e/keycloak-core-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-core/19.0.1/7f9ab0d571a6786e4b4b4c7b1c46539cfd2260c5/keycloak-core-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-core/19.0.1/a859a2202b10430d91a19a7b3b43c284a442ec55/keycloak-core-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/26783a31fe3e4b63f2799dda9266747d0621ffc6/jackson-core-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/e957ec5442966e69cef543927bdc80e5426968bb/jackson-core-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/5c208b38a4bdbb12bed869c6d16d96c2fdece0cb/jackson-core-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/1c78424885821d9d76dea840373e4c6ec3194bfb/jackson-annotations-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/15be89db6609bd6fda3dc309bacf0318a312c03f/jackson-annotations-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/42ebbb687fe2ef2e859bf1752c736adf2708dab7/jackson-annotations-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.13.0/b4b164d5dc0ea55dea8fa965ea26d1a493f6c0cd/jackson-datatype-jdk8-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.13.0/6d82a502e03f61d6dc6e47e5f7d6168141419c92/jackson-datatype-jdk8-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.13.0/e2e0408d507a44a68cc5edaa56b0eda742a65cc3/jackson-datatype-jdk8-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/531874ca0491bcdee13bc6a4f0fa201d8067366c/jackson-databind-2.13.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/889672a1721d6d85b2834fcd29d3fda92c8c8891/jackson-databind-2.13.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/1b0c7f488252bb6d2eb50e8d738cca1a526c4e6c/jackson-databind-2.13.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.55/add981a1f939b1bfd4860dd24d3686c9fd1c182f/tomcat-embed-websocket-9.0.55-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.55/4e6dc3646d00887497bd465bc4a63bfb0a7b10ab/tomcat-embed-websocket-9.0.55.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.55/49820bd4111ae1355379498b77d8139a5b1361c7/tomcat-embed-core-9.0.55-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.55/6ab68425d34f35e93cf97e1950c2c710161d8ce1/tomcat-embed-core-9.0.55.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.55/db3db13d90c3c26781e09e0c834d204b2d3d0c4f/tomcat-embed-el-9.0.55-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.55/d8b69643d1566712cf849a7e8e95c917f8aed1d3/tomcat-embed-el-9.0.55.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.2.Final/2eb4b975abf74e3ba3c125891a5101669b431c28/jboss-logging-3.4.2.Final-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.2.Final/e517b8a93dd9962ed5481345e4d262fdd47c4217/jboss-logging-3.4.2.Final.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.2.Final/9cca4e93fb932ea8feaed82871c1e05eeaa84403/jboss-logging-3.4.2.Final-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-lit-template/2.7.15/60d4d370c4e9947b2d314db739e025fc43d22a9b/flow-lit-template-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-lit-template/2.7.15/47514e73a91b6d0da05807a6d6e19f98011b2601/flow-lit-template-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-lit-template/2.7.15/3c66d6b9bc9b6c3d6af9c0e555474ebeaa423261/flow-lit-template-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-html-components/2.7.15/bf1a2e9ea837ac82878ea9940d6e5e1a4e7754c2/flow-html-components-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-html-components/2.7.15/92141214cf37046ce8f4565ff00ed894508b7a3e/flow-html-components-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-html-components/2.7.15/ad20a20cca97a390dbc6e3441de4c0045c09fd7a/flow-html-components-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-data/2.7.15/a32af9fd45d1ad1a49678060f66d91aa3e72fc44/flow-data-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-data/2.7.15/be9431d52121260a2949a8e12ab8099c186f53e2/flow-data-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-data/2.7.15/e82e1088cf57ec4406dbaafd1b509f7fe08170b9/flow-data-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-dnd/2.7.15/d7002822b1deaebcb954afbf1b3e602ded9e4548/flow-dnd-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-dnd/2.7.15/58137fbec3882df93068d00e74433c03eea364cc/flow-dnd-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-dnd/2.7.15/7f02b06325648af270ecc9284c528be0752bf76d/flow-dnd-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-server/2.7.15/56d0d5d5a9b9648f852583571acce4930bf416d/flow-server-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-server/2.7.15/d1c4db6f0cd595e51153c6e620b991d2df4c6efb/flow-server-2.7.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-server/2.7.15/12240fe17c2652dfc80591675dba840e2d73e0d7/flow-server-2.7.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/9654e91a61d7662c36be6710ef8e720c0e3f9807/httpclient-4.5.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/60e8e309548f93ea55ace6c614966cd0e1c7e6b4/httpclient-4.5.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-spi/19.0.1/565ff5432dad0fa51c7f484fd27a74da38405e30/keycloak-adapter-spi-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-spi/19.0.1/f0de9bce0c9f54c482d9735323e747947fcd8e2f/keycloak-adapter-spi-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-adapter-spi/19.0.1/1fb430bf52821fa14a3ed95c8d2d363d1cf8859e/keycloak-adapter-spi-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.7/3bad21efb8d5c9414a2cdd123f687d5697638aa1/logback-classic-1.2.7-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.7/3e89a85545181f1a3a9efc9516ca92658502505b/logback-classic-1.2.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.7/a13a78188ca45cd875ee56bbf047c5644536d1e7/logback-classic-1.2.7-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/54c937b22e4c4025c1f85482f92d4cf87b2d0972/log4j-to-slf4j-2.14.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/ce8a86a3f50a4304749828ce68e7478cafbc8039/log4j-to-slf4j-2.14.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.14.1/6e000aa1504c61ac002074aabf833ddcae5d7d41/log4j-to-slf4j-2.14.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/d03fa92a2a508b5595b896b93f13f04bcde11171/jul-to-slf4j-1.7.32-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/8a055c04ab44e8e8326901cadf89080721348bdb/jul-to-slf4j-1.7.32.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.32/82db1ac6ea2449d581dbfc6593db88b2fd2e5cac/jul-to-slf4j-1.7.32-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-css/6.1.1/6e8b443c4dd16915d0bdc417f89baad778f5f8ce/ph-css-6.1.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-css/6.1.1/917191de545d933eb813679d0cccac40ffe0c102/ph-css-6.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-css/6.1.1/9a0c94710a1e647b904b512d5af3eac828b9ade0/ph-css-6.1.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-commons/9.1.2/9a8e0201a751dedd05e2e39b25c65b213729a02a/ph-commons-9.1.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-commons/9.1.2/1bc415a2ce3195cd6bd47bbc5ad8ca4d701ba5e8/ph-commons-9.1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.helger/ph-commons/9.1.2/63b9add6cbb1724414c75d585c4d59741f3a6c04/ph-commons-9.1.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-push/2.7.15/dc817b112ffdd08fb2f126eab3a1daeef59e8261/flow-push-2.7.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin/flow-push/2.7.15/3e190103f28cf15484bc3cbce845f45baeb85f87/flow-push-2.7.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.atmosphere/atmosphere-runtime/2.7.3.slf4jvaadin4/bc0bd1d5d45e5d9b436e92d21b5795dbd9f056c0/atmosphere-runtime-2.7.3.slf4jvaadin4-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.atmosphere/atmosphere-runtime/2.7.3.slf4jvaadin4/8fc6a864d936fa9583f31ec16067e43545bb4d7f/atmosphere-runtime-2.7.3.slf4jvaadin4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.atmosphere/atmosphere-runtime/2.7.3.slf4jvaadin4/d375f65f2820743cefb2005389e0cb779eedc6f2/atmosphere-runtime-2.7.3.slf4jvaadin4-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/4381b152f738580aef4e436b2692a3db30609b26/slf4j-api-1.7.32-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/b9acc2f2eeef6b1fb26c0474d4f03b82212b2a44/slf4j-api-1.7.32-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.6.0/9fba4f4dfbbd9ed3f7b5e56df6fa951b03508cca/spring-security-crypto-5.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.6.0/751ba795cb2d65d990ff20eb717e7864ccd93722/spring-security-crypto-5.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.6.0/85abfad8b09d01ff622c9ff3f0cc4f1457e9ae8f/spring-security-crypto-5.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-common/19.0.1/1b4609d2062d9214e4957e902a550023c2ba6fb7/keycloak-common-19.0.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-common/19.0.1/5eff7bed1b08dcf3f74b1a1e6e3783332e30dab7/keycloak-common-19.0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-common/19.0.1/c1f3bbc5dd2ef2d7c1d121d65dff8073f1b6629e/keycloak-common-19.0.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9d3e55f73fedca10282469031cf6bc3a69e36711/httpcore-4.4.14-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/c8b219b57dd3beff05e5857578779672962c48e1/httpcore-4.4.14-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/a4bffaa9fcb2010973135106d6a9aac351336c47/commons-codec-1.15-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.gwt/gwt-elemental/2.8.2.vaadin2/47ae4b424710dd7b04fe6f046683786420ae9be3/gwt-elemental-2.8.2.vaadin2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.gwt/gwt-elemental/2.8.2.vaadin2/abdfd4fcfbc0652298061be8c70a56a6d6e868b2/gwt-elemental-2.8.2.vaadin2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external.gwt/gwt-elemental/2.8.2.vaadin2/c6861b1d450bacd80307e093c5e0916e8428e6b8/gwt-elemental-2.8.2.vaadin2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.3/34c8608c461e2c832a364ec1a9e70f360f47d9f7/commons-fileupload-1.3.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.3/4ff14d809195b711fd6bcc87e6777f886730ca1/commons-fileupload-1.3.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.3/d44ff01a7e0217b5c849c5375a3a8ad13a338375/commons-fileupload-1.3.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/2ef0187124bbfc7aed3038d4ffdd2241e8992937/commons-io-2.11.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/60949fec3bf05fcd5d2ed2c7aa32954c524d8c64/commons-io-2.11.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.14.3/7a694158266a45e5223778d2012a423ece87fc9a/jsoup-1.14.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.14.3/c43a81e18e6d0eb71951aa031d55d5c293c531a6/jsoup-1.14.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.14.3/c59f2f6859c6c2027d8c23837bc25ff8e77546a6/jsoup-1.14.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.11.22/70c06cf42a26f38acec9409f4c24b2963fc098b2/byte-buddy-1.11.22-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.11.22/8b4c7fa5562a09da1c2a9ab0873cb51f5034d83f/byte-buddy-1.11.22.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.11.22/dcb3dcac2f0e748359845451912de08dd48b9318/byte-buddy-1.11.22-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external/gentyref/1.2.0.vaadin1/4a158611168f9cfa33e8ac944fae490d12917404/gentyref-1.2.0.vaadin1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external/gentyref/1.2.0.vaadin1/c914574fdf1d7c7b85f58965d10f7a83811bb7c6/gentyref-1.2.0.vaadin1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.vaadin.external/gentyref/1.2.0.vaadin1/572c270075e24bab1cb4c428bd11e9bcc803227b/gentyref-1.2.0.vaadin1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/b3e0a269baa0d05b02f9b4447be463d25da8c097/commons-compress-1.21-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/cc63c1104ed523340bfab10146a423ab664998ed/commons-compress-1.21-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/4b714a5167580122e46ead3317ffcdcdbd67c5f0/validation-api-2.0.1.Final-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/7200cee3f81566cdf641c85a53df141034e3b603/validation-api-2.0.1.Final-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/vaadin__vaadin-mobile-drag-drop/1.0.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin__vaadin-mobile-drag-drop-1.0.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/vaadin__vaadin-mobile-drag-drop/1.0.0/f59b817abc4afaf3a4011e29d37d30a21e3568a5/vaadin__vaadin-mobile-drag-drop-1.0.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/vaadin__vaadin-mobile-drag-drop/1.0.0/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin__vaadin-mobile-drag-drop-1.0.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/mobile-drag-drop/2.3.0-rc.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/mobile-drag-drop-2.3.0-rc.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/mobile-drag-drop/2.3.0-rc.1/a99efeb0c4378d66787d060aa30a3f39adfee659/mobile-drag-drop-2.3.0-rc.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.webjars.npm/mobile-drag-drop/2.3.0-rc.1/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/mobile-drag-drop-2.3.0-rc.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.7/2716c720b4d14ee019ec276658b5897ca9a9c88d/logback-core-1.2.7-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.7/31f7db3c4277023742268c0c3f9b65f1f297e49a/logback-core-1.2.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.7/1da9c8fc216d4d7409e3370479d44f856ee5766e/logback-core-1.2.7-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/b2327c47ca413c1ec183575b19598e281fcd74d8/log4j-api-2.14.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/cd8858fbbde69f46bce8db1152c18a43328aae78/log4j-api-2.14.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.14.1/e9e3d12077785541723caa891febd3a7e2a6d0cc/log4j-api-2.14.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/fa3c25fb842cbe9eaa126a007475297f8bf35abe/jakarta.activation-1.2.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/74548703f9851017ce2f556066659438019e7eb5/jakarta.activation-1.2.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/273ce13a7698fa781e08b8696b0482f2eb02dd49/jakarta.activation-1.2.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.68/a5407438fed5d271f129d85e3f92cc027fa246a9/bcpkix-jdk15on-1.68-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.68/81da950604ff0b2652348cbd2b48fde46ced9867/bcpkix-jdk15on-1.68.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.68/be517cf84da21ea8c5c6debb3bf087fec0fa600/bcpkix-jdk15on-1.68-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.68/c092c4f5af620ea5fd40a48d844c556826bebb63/bcprov-jdk15on-1.68-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.68/46a080368d38b428d237a59458f9bc915222894d/bcprov-jdk15on-1.68.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.68/7c020d874664594c1a89a9da94d81c489e128ed1/bcprov-jdk15on-1.68-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.6.1/9118951b193add6047ef9fcfbd4e726268433da6/spring-boot-starter-test-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.6.1/e31a5b813f3b614563f0908a57fa554bc2a979f/spring-boot-starter-test-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.6.1/7828cd1e3307b251de6778b156a25289da313e8b/spring-boot-starter-test-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-test/5.6.0/b060b321c22fbbe13796f8d909c0d3e4a72e9d1f/spring-security-test-5.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-test/5.6.0/34760207513ce7f2ce8a237620941c23537056af/spring-security-test-5.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-test/5.6.0/e2e4cd5dcf53c989ff260689b30eba48a9444ab8/spring-security-test-5.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.6.1/4a3df6ef8ad6035b62bb502503c9e662cbdb45ef/spring-boot-test-autoconfigure-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.6.1/8412227ffb21f960c5ef131874815eaa176da1ca/spring-boot-test-autoconfigure-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.6.1/af8367e2db37f91fca45fc9e578c599dccd092b1/spring-boot-test-autoconfigure-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.6.1/616a101ce0559c84308fb1df6b728105a7e57a1f/spring-boot-test-2.6.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.6.1/1fd848cdb9f3920db9f7e6dfb3d37d45068dab8f/spring-boot-test-2.6.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.6.1/1edb35f16396594653e19616b330de4743501027/spring-boot-test-2.6.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.13/5e2b4524255ff2cb5c1db3b86814d486575f4a63/spring-test-5.3.13-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.13/71d8c97d3f79e4399df223772190aaee19bbf197/spring-test-5.3.13.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.3.13/c18f45b3776906ee2c6f4aeeba9ccef60946f52f/spring-test-5.3.13-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.6.0/323b2e72e7fea07dea282c1ec808531e525bb790/json-path-2.6.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.6.0/67f565b424f7903a12d4f5b9361b11462ecacdac/json-path-2.6.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.6.0/d504581dfeee3edcd236d2e33ad14fd86171d5c1/json-path-2.6.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/d83744bae211a4072c39f007000a13f501a88395/jakarta.xml.bind-api-2.3.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/5685a1e75f9135dcc71e73a690b378e90fcd3b53/jakarta.xml.bind-api-2.3.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.21.0/906e45ec2b27474605d3daa5f00519a9a74cbf64/assertj-core-3.21.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.21.0/27a14d6d22c4e3d58f799fb2a5ca8eaf53e6942a/assertj-core-3.21.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.21.0/530168e1a271a650706fd3e34a96036c9813801d/assertj-core-3.21.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/a0a13cfc629420efb587d954f982c4c6a100da25/hamcrest-2.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/71eb1f4a9ce834a5496fb99af2949a3b7667a090/hamcrest-2.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.1/d69300e26c3af1d798f412df28d060333e052472/junit-jupiter-params-5.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.1/13afdb5d414cbe991fce3ef6b864de77c9644dae/junit-jupiter-params-5.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.1/b5ac5056845e773ec16aed34401906239a010cbc/junit-jupiter-params-5.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/a3e13f34a2a47fb2c0d7385c5e6e0e8623194061/junit-jupiter-api-5.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/6538b88eb8bf8811bc7b6efb5246f835c15e0bfe/junit-jupiter-api-5.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.1/ec927a82504b828848dbde9a083694a67673e49b/junit-jupiter-api-5.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/386b61876dd33d0ef0381189d3c1db9455d99659/junit-platform-commons-1.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/1e362cbe6d0f225b066757865e233972557484/junit-platform-commons-1.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.1/848ef00b51c0ec6016140c303d3a16fad98f0b8/junit-platform-commons-1.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.1/5fd01c33132462aab3905cb74bd1097a713ab91a/junit-jupiter-5.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.1/73a218cf02d36d4e87bb9697fdbe0780e92b6bd3/junit-jupiter-5.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.1/3c791495768512669e0463f7be775c1ee4ea10c3/junit-jupiter-5.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/4.0.0/6aa189452f42167be3dc9ce5ac029df0f15ba0e5/mockito-junit-jupiter-4.0.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/4.0.0/b76de25bd6e5d8f7924d0536729c0076e37e9396/mockito-junit-jupiter-4.0.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/4.0.0/9fccef04e8fe004a57feacd2b2d6450b045ca987/mockito-junit-jupiter-4.0.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/4.0.0/7350016b49c3ffca18b5ef4b664e730bd99cd054/mockito-core-4.0.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/4.0.0/f5195e0c4a45716bbd2d1d29173adbd148acce3a/mockito-core-4.0.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/4.0.0/24147db753fdea18cee35e726d1b09574de6c99f/mockito-core-4.0.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/d729b258165a2fd9b5d6156c05c4c4f7ca053117/jsonassert-1.5.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/a4a6622b2914260f85954ba4dd314573d6d1efd5/jsonassert-1.5.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.8.3/65237775784c9a6ff3ff5c4430ef07a941a5aa15/xmlunit-core-2.8.3-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.8.3/79be4916d0203c17944d0e891c2b17c555727af/xmlunit-core-2.8.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.8.3/fca8d5984dbae1af8a61f8931c309edbb50a44c6/xmlunit-core-2.8.3-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.7/d64652c79751177c96a294fd5a1dcd61a330e940/json-smart-2.4.7-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.7/8d7f4c1530c07c54930935f3da85f48b83b3c109/json-smart-2.4.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.4.7/7be64e9a95823574fea62ae76deaf3854e8325ca/json-smart-2.4.7-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/c45b5962230be8a5f93759203870c98917bb8b31/jakarta.activation-api-1.2.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/99f53adba383cb1bf7c3862844488574b559621f/jakarta.activation-api-1.2.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/191218647f4113e274dae4d4cf6ae135d42e7fb8/jakarta.activation-api-1.2.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.11.22/8983d6c1637742ecad1c3be265d93338402efea9/byte-buddy-agent-1.11.22-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.11.22/2fbcf3210dfc09b42242e3b66a5281cc5b9adb80/byte-buddy-agent-1.11.22.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.11.22/6931aa42ebaf2d6e30c378dff4ac13a201509b13/byte-buddy-agent-1.11.22-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.7/6369c6c389cd6e1e1ee42d8ea8823a78decae735/accessors-smart-2.4.7-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.7/3970cfc505e6657ca60f3aa57c849f6043000d7a/accessors-smart-2.4.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.4.7/51b0aeab7977f740810d8c21e44fd666cc073769/accessors-smart-2.4.7-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/e82888bde2086df773006797d435cd0ba6af0e4e/opentest4j-1.2.0-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e3839c92bcb2ac079b30eb7becbe3c98e082fa22/apiguardian-api-1.1.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/3fb15dd478bf8dcb039aa0d035f9fff9e4229c61/asm-9.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a76a866d43c0c452852951088ecc9bf130fe5508/asm-9.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.1/ea87fe3d752e24397f71f347872e79a89c61a704/junit-jupiter-engine-5.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.1/21b86e08aae2720bbf017703669948be96d1388c/junit-jupiter-engine-5.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.1/82fb2306dfb0f932312771554e178f342b28d40b/junit-jupiter-engine-5.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.1/9d87ea7959823714ad803aa91e0618bf2213b52c/junit-platform-engine-1.8.1-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.1/e6c63bf990dc88a6527b4ed617b23e47048f07e0/junit-platform-engine-1.8.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.1/936aa3c58b4b85776c6595ebbb0e7894097d079a/junit-platform-engine-1.8.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/andrea/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.2/9f5da90020a255f25b6d8da8db273e2d38ce9805/objenesis-3.2-sources.jar" kind="lib" path="/home/andrea/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.2/7fadf57620c8b8abdf7519533e5527367cb51f09/objenesis-3.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/andrea/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.2/204ce3a4bb2412ff0f1bd9243a8a3b31a9d26f11/objenesis-3.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
